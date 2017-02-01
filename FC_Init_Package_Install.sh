@@ -12,6 +12,7 @@ echo "Agregar los repositorios RPM fusion (free y non-free)
 Introduce la contraseña de root (su)"
 
 su -c 'dnf install http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm http://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm'
+exit
 
 # Instalar akmod-wl para wl wifi HP Broadcom
 echo "Deseas instalar el driver de WiFi para Laptops HP? y/n"
