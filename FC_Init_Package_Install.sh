@@ -1,8 +1,5 @@
-# Configuración Inicial PC Orlando Trejo"
+# Configuración Inicial PC Orlando Trejo
 echo "Bienvenidos al set-up inicial de PC Fedora de Orlando
-
-Recordamos que ejecuta el presente script bajo su responsabilidad
-
 "
 
 # Actualizar
