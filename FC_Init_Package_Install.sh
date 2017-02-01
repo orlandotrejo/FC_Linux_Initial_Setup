@@ -53,27 +53,24 @@ sudo dnf install vlc xine kdenlive youtube-dl kde-connect audacity
 sudo dnf install lyx libreoffice texlive-epstopdf texlive-esint texlive-matlab-prettifier texlive-esint-type1 unrar
 
 # Instalar Dropbox (requiere los rpm-fusion)
-
 sudo dnf install dropbox
 
 # Instalar otros
-
 sudo dnf install keepassx
 
 # Instalar Google Fonts
-
 sudo dnf install liberation-fonts google-droid-serif-fonts google-droid-sans-fonts google-droid-sans-mono-fonts texlive-droid texlive-IEEEtran
 
 # Instalar el escritorio Xfce
-
 sudo dnf groupinstall "Xfce Desktop"
 
-sudo dnf install wine
-
 # Instalar Sublime
-
 curl -L git.io/sublimetext | sh
 
+# Instalar Driver Impresora HP
 sudo dnf install hplip hplip-gui libtool
+
+# Instalar Wine
+sudo dnf install wine
 
 # El color de okular claro es FBF0D9 y el oscuro 5B4636
