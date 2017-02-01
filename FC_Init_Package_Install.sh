@@ -46,8 +46,11 @@ exit
 
 sudo dnf install google-chrome
 
-# Instalar paquetes para trabajar con multimedia
+# Instalar paquetes para trabajar con audio y video
 sudo dnf install vlc xine kdenlive youtube-dl kde-connect audacity
+
+# Instalar paquetes para editar imágenes
+sudo dnf install inkscape gimp
 
 # Aplicaciones basicas de documentos
 sudo dnf install lyx libreoffice texlive-epstopdf texlive-esint texlive-matlab-prettifier texlive-esint-type1 unrar
@@ -56,7 +59,7 @@ sudo dnf install lyx libreoffice texlive-epstopdf texlive-esint texlive-matlab-p
 sudo dnf install dropbox
 
 # Instalar otros
-sudo dnf install keepassx
+sudo dnf install keepassx git
 
 # Instalar Google Fonts
 sudo dnf install liberation-fonts google-droid-serif-fonts google-droid-sans-fonts google-droid-sans-mono-fonts texlive-droid texlive-IEEEtran
