@@ -46,13 +46,10 @@ exit
 
 sudo dnf install google-chrome
 
-# Instalar codecs mpeg4
-sudo dnf install vlc
-# ¿esto sirve? sudo dnf install xine-lib k3b-extras-freeworld gstreamer1-plugin-mpg123 mpg123-libs
-
+# Instalar paquetes para trabajar con multimedia
+sudo dnf install vlc xine kdenlive youtube-dl kde-connect audacity
 
 # Aplicaciones basicas de documentos
-
 sudo dnf install lyx libreoffice texlive-epstopdf texlive-esint texlive-matlab-prettifier texlive-esint-type1 unrar
 
 # Instalar Dropbox (requiere los rpm-fusion)
@@ -78,7 +75,5 @@ sudo dnf install wine
 curl -L git.io/sublimetext | sh
 
 sudo dnf install hplip hplip-gui libtool
-
-sudo dnf install youtube-dl kdenlive kde-connect audacity
 
 # El color de okular claro es FBF0D9 y el oscuro 5B4636
