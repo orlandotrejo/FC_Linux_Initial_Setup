@@ -52,8 +52,9 @@ sudo dnf install vlc xine kdenlive youtube-dl kde-connect audacity
 # Instalar paquetes para editar imágenes
 sudo dnf install inkscape gimp
 
-# Aplicaciones basicas de documentos
-sudo dnf install lyx libreoffice texlive-epstopdf texlive-esint texlive-matlab-prettifier texlive-esint-type1 unrar
+# Aplicaciones basicas de documentos y paquetes de LaTeX
+sudo dnf install lyx libreoffice 
+sudo dnf install texlive-epstopdf texlive-esint texlive-matlab-prettifier texlive-esint-type1 texlive-droid texlive-IEEEtran unrar
 
 # Instalar Dropbox (requiere los rpm-fusion)
 sudo dnf install dropbox
@@ -62,7 +63,7 @@ sudo dnf install dropbox
 sudo dnf install keepassx git
 
 # Instalar Google Fonts
-sudo dnf install liberation-fonts google-droid-serif-fonts google-droid-sans-fonts google-droid-sans-mono-fonts texlive-droid texlive-IEEEtran
+sudo dnf install liberation-fonts google-droid-serif-fonts google-droid-sans-fonts google-droid-sans-mono-fonts
 
 # Instalar el escritorio Xfce
 sudo dnf groupinstall "Xfce Desktop"
