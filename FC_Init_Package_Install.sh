@@ -47,7 +47,7 @@ exit
 sudo dnf install google-chrome
 
 # Instalar paquetes para trabajar con audio y video
-sudo dnf install vlc xine kdenlive youtube-dl kde-connect audacity
+sudo dnf install vlc xine kdenlive youtube-dl ffprobe kde-connect audacity
 
 # Instalar paquetes para editar imágenes
 sudo dnf install inkscape gimp
