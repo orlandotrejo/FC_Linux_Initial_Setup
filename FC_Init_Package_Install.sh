@@ -50,7 +50,7 @@ sudo dnf install google-chrome
 sudo dnf install vlc xine kdenlive youtube-dl ffmpeg kde-connect audacity
 
 # Instalar paquetes para editar imágenes
-sudo dnf install inkscape gimp
+sudo dnf install inkscape gimp kphoto album
 
 # Aplicaciones basicas de documentos y paquetes de LaTeX
 sudo dnf install lyx libreoffice 
