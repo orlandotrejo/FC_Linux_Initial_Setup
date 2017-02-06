@@ -52,6 +52,9 @@ sudo dnf install vlc xine kdenlive youtube-dl ffmpeg kde-connect audacity
 # Instalar paquetes para editar imágenes
 sudo dnf install inkscape gimp kphoto album
 
+# Instalar bibliotecas científicas de python
+sudo dnf install numpy scipy
+
 # Aplicaciones basicas de documentos y paquetes de LaTeX
 sudo dnf install lyx libreoffice 
 sudo dnf install texlive-epstopdf texlive-esint texlive-matlab-prettifier texlive-esint-type1 texlive-droid texlive-IEEEtran unrar
