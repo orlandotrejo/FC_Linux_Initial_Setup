@@ -53,7 +53,7 @@ sudo dnf install vlc xine kdenlive youtube-dl ffmpeg kde-connect audacity
 sudo dnf install inkscape gimp kphoto album
 
 # Instalar bibliotecas científicas de python
-sudo dnf install numpy scipy
+sudo dnf install numpy scipy python3-matplotlib python2-matplotlib
 
 # Aplicaciones basicas de documentos y paquetes de LaTeX
 sudo dnf install lyx libreoffice 
