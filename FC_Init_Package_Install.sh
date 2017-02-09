@@ -63,7 +63,7 @@ sudo dnf install texlive-epstopdf texlive-esint texlive-matlab-prettifier texliv
 sudo dnf install dropbox
 
 # Instalar otros
-sudo dnf install keepassx git
+sudo dnf install keepassx git lynx
 
 # Instalar Google Fonts
 sudo dnf install liberation-fonts google-droid-serif-fonts google-droid-sans-fonts google-droid-sans-mono-fonts
