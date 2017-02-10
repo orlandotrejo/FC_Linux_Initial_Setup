@@ -65,6 +65,9 @@ sudo dnf install dropbox
 # Instalar otros
 sudo dnf install keepassx git lynx
 
+# Instalar bibliotecas y compiladores para MATLAB
+sudo dnf install gcc-gfortran
+
 # Instalar Google Fonts
 sudo dnf install liberation-fonts google-droid-serif-fonts google-droid-sans-fonts google-droid-sans-mono-fonts
 
