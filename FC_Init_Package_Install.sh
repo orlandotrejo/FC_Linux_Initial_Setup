@@ -33,7 +33,7 @@ else
     
 fi
 
-# Instalar Google Chrome Stable:
+# Instalar Google Chrome Stable desde su repositorio:
 su
 cat << EOF > /etc/yum.repos.d/google-chrome.repo
 [google-chrome]
@@ -48,22 +48,29 @@ exit
 sudo dnf install google-chrome
 
 # Instalar paquetes para trabajar con audio y video
-sudo dnf install vlc xine kdenlive youtube-dl kde-connect audacity
+sudo dnf install vlc xine kdenlive youtube-dl ffmpeg kde-connect audacity
 
 # Instalar paquetes para editar imágenes
-sudo dnf install inkscape gimp
+sudo dnf install inkscape gimp kphotoalbum
 
-# Aplicaciones basicas de documentos
-sudo dnf install lyx libreoffice texlive-epstopdf texlive-esint texlive-matlab-prettifier texlive-esint-type1 unrar
+# Instalar bibliotecas científicas de python
+sudo dnf install numpy scipy python3-matplotlib python2-matplotlib
+
+# Aplicaciones basicas de documentos, fuentes y paquetes de LaTeX
+sudo dnf install lyx libreoffice 
+sudo dnf install texlive-epstopdf texlive-esint texlive-matlab-prettifier texlive-esint-type1 texlive-droid texlive-IEEEtran unrar
 
 # Instalar Dropbox (requiere los rpm-fusion)
 sudo dnf install dropbox
 
 # Instalar otros
-sudo dnf install keepassx git
+sudo dnf install keepassx git lynx
+
+# Instalar bibliotecas y compiladores para MATLAB
+sudo dnf install gcc-gfortran
 
 # Instalar Google Fonts
-sudo dnf install liberation-fonts google-droid-serif-fonts google-droid-sans-fonts google-droid-sans-mono-fonts texlive-droid texlive-IEEEtran
+sudo dnf install liberation-fonts google-droid-serif-fonts google-droid-sans-fonts google-droid-sans-mono-fonts
 
 # Instalar el escritorio Xfce
 sudo dnf groupinstall "Xfce Desktop"
