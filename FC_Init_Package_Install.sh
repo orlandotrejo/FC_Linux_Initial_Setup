@@ -1,4 +1,4 @@
-# Configuración Inicial PC Orlando Trejo
+# Configuración Inicial PC FC
 echo "Bienvenidos al set-up inicial de PC Fedora de Orlando
 "
 
