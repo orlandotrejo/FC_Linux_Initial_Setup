@@ -56,9 +56,11 @@ sudo dnf install inkscape gimp kphotoalbum
 # Instalar bibliotecas científicas de python
 sudo dnf install numpy scipy python3-matplotlib python2-matplotlib
 
-# Aplicaciones basicas de documentos, fuentes y paquetes de LaTeX
+# Aplicaciones basicas de documentos, fuentes Droid y mscore;  paquetes de LaTeX
 sudo dnf install lyx libreoffice 
 sudo dnf install texlive-epstopdf texlive-esint texlive-matlab-prettifier texlive-esint-type1 texlive-droid texlive-IEEEtran unrar
+sudo dnf install cabextract
+sudo rpm -i https://downloads.sourceforge.net/project/mscorefonts2/rpms/msttcore-fonts-installer-2.6-1.noarch.rpm
 
 # Instalar Dropbox (requiere los rpm-fusion)
 sudo dnf install dropbox
