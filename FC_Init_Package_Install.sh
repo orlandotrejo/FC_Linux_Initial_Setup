@@ -1,4 +1,5 @@
 # Configuración Inicial PC FC
+# Corra bajo su propio riesgo, I assume no liability
 echo "Bienvenidos al set-up inicial de PC Fedora de Orlando
 "
 
@@ -42,7 +43,7 @@ enabled=1
 gpgcheck=1
 gpgkey=https://dl-ssl.google.com/linux/linux_signing_key.pub
 EOF
-exit
+exit #sale de su
 
 sudo dnf install google-chrome
 
