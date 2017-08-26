@@ -5,7 +5,7 @@ echo "Bienvenidos al set-up inicial de PC Fedora de Orlando
 
 # Actualizar
 echo "Actualizando los paquetes preinstalados de fábrica..."
-sudo dnf update
+sudo dnf -y update
 
 # Agregar repositorios rpm fusion (free y nonfree)
 echo "Agregar los repositorios RPM fusion (free y non-free)
@@ -71,8 +71,8 @@ sudo dnf install keepassx git lynx
 # Instalar bibliotecas y compiladores para MATLAB
 sudo dnf install gcc-gfortran
 
-# Instalar Google Fonts
-sudo dnf install liberation-fonts google-droid-serif-fonts google-droid-sans-fonts google-droid-sans-mono-fonts
+# Instalar Google Fonts y Adobe Pro Fonts (sans-serif-mono)
+sudo dnf install liberation-fonts google-droid-serif-fonts google-droid-sans-fonts google-droid-sans-mono-fonts adobe-source-sans-pro-fonts adobe-source-serif-pro-fonts
 
 # Instalar el escritorio Xfce
 sudo dnf groupinstall "Xfce Desktop"
