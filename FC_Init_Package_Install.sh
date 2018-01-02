@@ -77,6 +77,9 @@ sudo dnf install liberation-fonts google-droid-serif-fonts google-droid-sans-fon
 # Instalar el escritorio Xfce
 sudo dnf groupinstall "Xfce Desktop"
 
+# Instalar diff utility
+sudo dnf install kompare
+
 # Instalar Sublime
 curl -L git.io/sublimetext | sh
 
