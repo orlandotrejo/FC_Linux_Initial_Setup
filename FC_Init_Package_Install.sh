@@ -89,4 +89,7 @@ sudo dnf install hplip hplip-gui libtool
 # Instalar Wine
 sudo dnf install wine
 
+# Instalar Drivers Nvidia
+sudo dnf install xorg-x11-drv-nvidia xorg-x11-drv-nvidia-cuda vulkan
+
 # El color de okular claro es FBF0D9 y el oscuro 5B4636
